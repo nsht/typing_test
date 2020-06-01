@@ -24,9 +24,13 @@
 #score {
   grid-column-start: 2;
   font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  gap: 25%;
 }
 
 html,
 body {
+  font-family: "Roboto", sans-serif;
   height: 98%;
 }
